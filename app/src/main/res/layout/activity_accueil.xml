@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accueil">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true">
+    </ViewFlipper>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v_flipper"
+        android:layout_marginTop="7dp"
+        android:text="A la découverte de Madagascar"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="7dp"
+        android:text="      Madagascar est une gigantesque île campée à 400 km des côtes ouest de l’Afrique. Le canal de Mozambique la dissocie de cette dernière tandis qu’au Nord, à l’Est et au Sud, l’océan indien l’encercle. Les géographes avancent que l’île rouge fait partie intégrante du Gondwana. Elle s’est détachée du continent africain après les séismes successifs qui se sont produits dans la région, il y a des siècles de cela." />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="11dp"
+        android:text="      La biodiversité des richesses endémiques de Madagascar entretient sa réputation au niveau international. Qui n’a jamais vu ou entendu parler des célèbres dessins animés 1 ou 2. Lequel d’entre nous n’aimerait pas voir de près les extraordinaires bubons des orchidacées ou chatouiller les soyeuses fourrures des lémurs cata ? Tout cela sera possible lors d’un voyage à Madagascar." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="123dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="news"
+        android:text="Visite" />
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_actualite.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_fiche.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_home.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_lesson_exercice.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_liste.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_login.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_main.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/activity_profile.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/fragment_lesson_exercice.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/fragment_lesson_exercice_list.xml" value="0.2046875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/lessonexercice.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/layout/my_row.xml" value="0.21875" />
+        <entry key="..\:/Users/ASUS/Downloads/ETU000674_LOYENS_Randy_Heggy/Hitsidika/app/src/main/res/menu/menu_navigation.xml" value="0.21145833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

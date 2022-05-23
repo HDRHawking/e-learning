@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "324443004343",
+    "firebase_url": "https://hitsidika.firebaseio.com",
+    "project_id": "elearning",
+    "storage_bucket": "hitsidika.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324443004343:android:a1a464b73bf6c92ae89c32",
+        "android_client_info": {
+          "package_name": "com.harf.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324443004343-3fd26ofb7rvbcatsdrh1gt7fgeif446i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harf.elearning",
+            "certificate_hash": "e4700d38470a843ece843a56dd93da8ae18bcd9b"
+          }
+        },
+        {
+          "client_id": "324443004343-lrsg14r2kg1jeqpphtlqp6h4udq71gki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClhH6LGr87wFp-o8U9LIApJgvKAgkYTMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324443004343-lrsg14r2kg1jeqpphtlqp6h4udq71gki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
