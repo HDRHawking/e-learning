@@ -34,7 +34,7 @@ public class Actualite extends AppCompatActivity {
         arrayList.add("Actualité");
 
         ArrayList<String> arrayList2 = new ArrayList<>();
-        arrayList2.add("Nouvelle année, nouvelles perspectives.L’objectif est de faire connaître la destination Madagascar dans toute sa diversité. Quelques agences de voyage et la compagnie aérienne nationale Air Madagascar, accompagnée de sa filiale Tsaradia, vont réunir les professionnels de voyage en France pour leur présenter, au cours d’un cocktail ou d’un petit déjeuner, les offres touristiques de la Grande île.Avec l’Allemagne, la France figure parmi les principales cibles de l’ONTM. Outre le tourisme affinitaire, les opérateurs touristiques de la Grande île misent également sur plusieurs offres nautiques, entre autres, la plongée, la pêche sportive et le birdwatchning. Dans la même foulée, une douzaine de journalistes et blogueurs internationaux seront invités à Madagascar pour promouvoir, à leur tour, la destination Île aux trésors. ");
+        arrayList2.add("Cette étude propose une analyse du vécu des étudiants face à un enseignement à distance imposé en période de confinement et principalement constitué d’une simple transposition numérique de l’enseignement classique.");
 
         prepareViewPager(viewPager,arrayList,arrayList2);
 
