@@ -83,8 +83,7 @@ public class Login extends AppCompatActivity {
                     @RequiresApi(api = Build.VERSION_CODES.O)
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        Intent intent=new Intent(getApplicationContext(),Home.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+
                         if(task.isSuccessful()){
                             NotificationCompat.Builder builder = new NotificationCompat.Builder(Login.this,"E-learning");
                             builder.setContentTitle("E-learning");
@@ -94,6 +93,8 @@ public class Login extends AppCompatActivity {
                             NotificationManagerCompat managerCompat = NotificationManagerCompat.from(Login.this);
                             managerCompat.notify(1,builder.build());
                             Toast.makeText(Login.this,"connexion avec succes",Toast.LENGTH_SHORT).show();
+                            Intent intent=new Intent(getApplicationContext(),Home.class);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                             startActivity(intent);
                         }else{
                             spinner.setVisibility(View.VISIBLE);
