@@ -85,8 +85,7 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Intent intent=new Intent(getApplicationContext(),Home.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                        startActivity(intent);
-//                        if(task.isSuccessful()){
+                        if(task.isSuccessful()){
                             NotificationCompat.Builder builder = new NotificationCompat.Builder(Login.this,"E-learning");
                             builder.setContentTitle("E-learning");
                             builder.setContentText("Bienvenue sur le plateforme de cours en ligne e-learning");
@@ -94,13 +93,12 @@ public class Login extends AppCompatActivity {
                             builder.setAutoCancel(true);
                             NotificationManagerCompat managerCompat = NotificationManagerCompat.from(Login.this);
                             managerCompat.notify(1,builder.build());
-//                            Toast.makeText(Login.this,"connexion avec succes",Toast.LENGTH_SHORT).show();
-//                            createNotification();
-//
-//                        }else{
-//                            spinner.setVisibility(View.VISIBLE);
-//                            Toast.makeText(Login.this," "+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
-//                        }
+                            Toast.makeText(Login.this,"connexion avec succes",Toast.LENGTH_SHORT).show();
+                            startActivity(intent);
+                        }else{
+                            spinner.setVisibility(View.VISIBLE);
+                            Toast.makeText(Login.this," "+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
+                        }
                     }
                 });
 
