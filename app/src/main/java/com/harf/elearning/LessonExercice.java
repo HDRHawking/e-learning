@@ -22,7 +22,7 @@ public class LessonExercice extends AppCompatActivity {
     RecyclerView recyclerView;
     SearchView mysearchView;
     int images[] ={R.drawable.logo,R.drawable.logo,R.drawable.logo,R.drawable.logo,R.drawable.logo,R.drawable.logo};
-
+    static String key_words = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,8 +33,11 @@ public class LessonExercice extends AppCompatActivity {
         CoursMatiere cours= new CoursMatiere();
 
 //        String listedescription[] = cours.getListeDescription();
-        String listeLibelle[] = cours.getListeCours().get(getIntent().getStringExtra("data2"));
-////        String listeid[] = cours.getListeId();
+        if(key_words==null){
+            key_words = getIntent().getStringExtra("data2");
+        }
+        String listeLibelle[] = cours.getListeCours().get(key_words);
+//        String listeid[] = cours.getListeId();
 //
         final AdapterCours mumAdapter = new AdapterCours( this,listeLibelle);
         recyclerView.setAdapter(mumAdapter);

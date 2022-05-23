@@ -14,6 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.harf.elearning.model.DetailsCoursMatiere;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -141,13 +143,15 @@ public class AdapterCours extends RecyclerView.Adapter<Adapter.MyVieWHolder> imp
         myVieWHolder.myText2.setText(data3[position]);
         myVieWHolder.myImages.setImageResource(images[position]);
 
+        DetailsCoursMatiere detailsCoursMatiere = new DetailsCoursMatiere();
+        final String description = detailsCoursMatiere.getListeDetails().get(data1[position]);
         myVieWHolder.mainLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, Fiche.class);
                 intent.putExtra("data1", data1[position]);
-                intent.putExtra("data2", data2[position]);
-                intent.putExtra("data3", data3[position]);
+                intent.putExtra("data2", description);
+                intent.putExtra("data3", "Details Cours");
                 intent.putExtra("myImage", images[position]);
                 context.startActivity(intent);
             }
